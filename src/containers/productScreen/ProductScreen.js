@@ -10,7 +10,6 @@ export function ProductScreen() {
 
     const cart = useSelector((state) => state.product.cart);
     const itemData = useSelector((state) => state.product.data)
-    const isInCart = cart?.some((item) => item.id === itemData.id);
 
     console.log("CARTTTT", cart.length);
     

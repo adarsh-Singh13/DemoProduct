@@ -6,7 +6,6 @@ import { HelperService } from '../../../utils/HelperService';
 
 export default function ProductListItem({data}) {
     const dispatch = useDispatch();
-    const cart = useSelector((state) => state.product.cart);
 
     const handleAddToCart = (product) => {
       // console.log("ITREM", product.id);
